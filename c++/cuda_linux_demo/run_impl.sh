@@ -8,7 +8,7 @@ WITH_MKL=ON
 WITH_GPU=ON
 USE_TENSORRT=OFF
 
-LIB_DIR=/home/heya02/dist_test/serving_0.4.1/0118_code/Serving/build/third_party/install/Paddle/
+LIB_DIR=/paddle_inference/
 CUDNN_LIB=/usr/lib64/
 CUDA_LIB=/usr/local/cuda/lib64/
 TENSORRT_ROOT=/path/to/trt/root/dir
