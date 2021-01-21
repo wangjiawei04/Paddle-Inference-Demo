@@ -6,11 +6,11 @@ DEMO_NAME=model_test
 
 WITH_MKL=ON
 WITH_GPU=ON
-USE_TENSORRT=ON
+USE_TENSORRT=OFF
 
-LIB_DIR=/work/Paddle/build/paddle_inference_install_dir
-CUDNN_LIB=/path/to/cudnn/lib
-CUDA_LIB=/path/to/cuda/lib
+LIB_DIR=/home/heya02/dist_test/serving_0.4.1/0118_code/Serving/build/third_party/install/Paddle/
+CUDNN_LIB=/usr/lib64/
+CUDA_LIB=/usr/local/cuda/lib64/
 TENSORRT_ROOT=/path/to/trt/root/dir
 
 cmake .. -DPADDLE_LIB=${LIB_DIR} \
