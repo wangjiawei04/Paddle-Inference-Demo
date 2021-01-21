@@ -5,13 +5,9 @@
 #include <memory>
 #include <numeric>
 
-#include <gflags/gflags.h>
-#include <glog/logging.h>
-
 #include "paddle_inference_api.h"
 
 int main(int argc, char *argv[]) {
-  gflags::ParseCommandLineFlags(&argc, &argv, true);
 
   // Init config
   paddle_infer::Config config;
